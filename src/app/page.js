@@ -1,14 +1,19 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
-import Link from 'next/link'
+import { useEffect } from "react";
+
 
 export default function Hello(){
     const router = useRouter()
-    if(sessionStorage.getItem("token") != null){ 
-        router.push('/home');
-    }
-    else{
-        router.push('/login');
-    }
+
+    useEffect(() => {
+        const token = sessionStorage.getItem("token");
+        if (true) {
+            router.push('/pages/home');
+        } else {
+            router.push('/pages/login');
+        }
+    }, [router]);
+
+    return null;
 }

@@ -24,7 +24,7 @@ export default function HomePage(){
 
   return(
     <div className="text-white m-auto">
-      <div className='bg-[url(/images/1.jpg)] w-full h-[50vh] bg-center bg-cover bg-no-repeat'>
+      <div className='bg-[url(/images/hero.jpg)] w-full h-screen bg-center bg-cover bg-no-repeat'>
           
       </div>
       {
