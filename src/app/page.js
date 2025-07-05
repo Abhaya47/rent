@@ -8,7 +8,7 @@ export default function Hello(){
 
     useEffect(() => {
         const token = sessionStorage.getItem("token");
-        if (true) {
+        if (token != null) {
             router.push('/pages/home');
         } else {
             router.push('/pages/login');
