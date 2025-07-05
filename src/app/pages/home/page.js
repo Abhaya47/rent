@@ -32,7 +32,7 @@ export default function HomePage(){
           <div className='flex w-5/6 md:w-3/5  border-2 rounded-4xl tracking-wider text-2xl p-1 bg-zinc-950'>
                 <div className='relative m-auto w-full group'>
                   <input type="text" name="floating_email" id="floating_email" placeholder="" className='peer text-center text-white m-auto w-full border-0 appearance-none outline-none bg-transparent pt-4'/>
-                  <label className="select-none pointer-events-none absolute text-gray-400 text-sm md:text-lg duration-300 transform -translate-y-3 scale-75  left-1/2 top-2 z-10 -translate-x-1/2 peer-placeholder-shown:-translate-y-3 md:peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-placeholder-shown:top-4 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-3 peer-focus:text-blue-400">SEARCH LOCATION</label>
+                  <label className="select-none pointer-events-none absolute text-gray-400 text-sm md:text-lg duration-300 transform -translate-y-3 scale-75  left-1/2 top-2 z-10 -translate-x-1/2 peer-placeholder-shown:-translate-y-2 md:peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-placeholder-shown:top-4 peer-focus:top-2 md:peer-focus:top-0 peer-focus:scale-75 peer-focus:-translate-y-3 peer-focus:text-blue-400">SEARCH </label>
                 </div>
               <div className="pr-5 pt-2 justify-center items-center justify-items-center"><FontAwesomeIcon icon={faSearch} onClick={()=>{}}></FontAwesomeIcon></div>
           </div>
